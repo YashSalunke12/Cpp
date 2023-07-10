@@ -15,26 +15,36 @@ int main(){
 
     // You can change the value of an array
     
-    // marks[2] = 84;
+    marks[2] = 84;
     // cout << marks[2] << endl;
 
     // Printing values of array using loop 
 
-    for(int i=0; i<5; i++){
-        cout << marks[i] << endl;
-    }
+    // for(int i=0; i<5; i++){
+    //     cout << marks[i] << endl;
+    // }
 
-    int i=0;
-    while(i<5){
-        cout << marks[i] << endl;
-        i++;
-    }
+    // same using while and do-while loops
 
-    int j=0;
-    do{
-        cout << marks[j] << endl;
-        j++;
-    }while(j<5);
+    // int i=0;
+    // while(i<5){
+    //     cout << marks[i] << endl;
+    //     i++;
+    // }
+
+    // int j=0;
+    // do{
+    //     cout << marks[j] << endl;
+    //     j++;
+    // }while(j<5);
+
+    int* p = marks;
+
+    cout << "The value of marks[0] is " << *p << endl;
+    cout << "The value of marks[1] is " << *(p+1) << endl;
+    cout << "The value of marks[2] is " << *(p+2) << endl;
+    cout << "The value of marks[3] is " << *(p+3) << endl;
+
 
     return 0;
 }
