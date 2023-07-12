@@ -2,8 +2,9 @@
 // 1) System header files - which comes with the compiler
 #include<iostream>
 
-// 2) User defined header files - It is written by the programmer 
-// #include "this.h" --> This will throw an error if this.h is not present in your current directory
+// 2) User defined header files - It is written by the programme
+// #include "this.h" --> This will throw an error if this.h is not present in your current directory.
+// 
 
 using namespace std;
 
