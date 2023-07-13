@@ -17,7 +17,7 @@ int main(){
     // cout << "The value of a is " << a << endl;
 
 
-    // ************* Using setw *****************
+    // ************* Using setw ******************
 
     int a = 3, b = 78, c = 1234;
     cout << "The value of a without setw is : " << a << endl;
