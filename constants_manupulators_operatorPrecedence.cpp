@@ -9,7 +9,7 @@ int main(){
     // a = 50;
     // cout << "The value of a is " << a << endl;
 
-    //********* Constants in C++ ****************
+    //********* Constants in C++ *****************
 
     // const float a = 3.11;
     // cout << "The value of a was " << a << endl;
@@ -17,7 +17,7 @@ int main(){
     // cout << "The value of a is " << a << endl;
 
 
-    // ************* Using setw *****************
+    // ************* Using setw ******************
 
     int a = 3, b = 78, c = 1234;
     cout << "The value of a without setw is : " << a << endl;
