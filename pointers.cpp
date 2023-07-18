@@ -14,8 +14,8 @@ int main() {
     // Pointer to Pointer
 
     int **c = &b;
-    cout << c << endl;
-    cout << **c << endl;
-    cout << *c << endl;
+    cout << c << endl; // address of c
+    cout << **c << endl; // value stored at c
+    cout << *c << endl; // Value stored at c
     return 0;
 }

@@ -8,14 +8,14 @@ union money
     float pounds;
 };
 
+// You can use only one data type or value at one time!
+// unions are used to do better memory management
 
 int main(){
 
     union money m1;
     m1.rice = 10;
-    m1.car = 's';
     cout << m1.rice;
-    cout << m1.car;
 
     return 0;
 }

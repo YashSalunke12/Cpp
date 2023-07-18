@@ -7,9 +7,20 @@ struct employee {
     float salary;
 };
 
+// shortcut trick
+
+// typedef struct employee {
+//     int eId;
+//     char favChar;
+//     float salary;
+// }ep;
+
+
 int main(){
 
     struct employee yash;
+    // ep sarthak;   using shortcut
+
     yash.eId = 1;
     yash.favChar = 's';
     yash.salary = 150000;
