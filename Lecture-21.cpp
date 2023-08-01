@@ -8,11 +8,11 @@ using namespace std;
         int d, e;
         void setData(int a1, int b1, int c1); // Declaration
         void getData(){
-            // cout << "The value of a is " << a << endl;
-            // cout << "The value of b is " << b << endl;
-            // cout << "The value of c is " << c << endl;
-            // cout << "The value of d is " << d << endl;
-            // cout << "The value of e is " << e << endl;
+            cout << "The value of a is " << a << endl;
+            cout << "The value of b is " << b << endl;
+            cout << "The value of c is " << c << endl;
+            cout << "The value of d is " << d << endl;
+            cout << "The value of e is " << e << endl;
         }
  };
 
@@ -22,16 +22,11 @@ using namespace std;
     c = c1;
  }
 
-void Employee :: getData(){
-            cout << "The value of a is " << a << endl;
-            cout << "The value of b is " << b << endl;
-            cout << "The value of c is " << c << endl;
-            cout << "The value of d is " << d << endl;
-            cout << "The value of e is " << e << endl;
-        }
-
  int main(){
     Employee Yash;
+    Employee Sarthak;
+    Sarthak.setData(10, 20, 30);
+    Sarthak.getData();
     Yash.d = 4;
     Yash.e = 5;
     Yash.setData(1, 2, 3);
