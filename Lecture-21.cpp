@@ -24,9 +24,6 @@ using namespace std;
 
  int main(){
     Employee Yash;
-    Employee Sarthak;
-    Sarthak.setData(10, 20, 30);
-    Sarthak.getData();
     Yash.d = 4;
     Yash.e = 5;
     Yash.setData(1, 2, 3);
