@@ -9,7 +9,7 @@ int main(){
     // a = 50;
     // cout << "The value of a is " << a << endl;
 
-    //********* Constants in C++ ************************************
+    //********* Constants in C++ *************************************
 
     // const float a = 3.11;
     // cout << "The value of a was " << a << endl;
